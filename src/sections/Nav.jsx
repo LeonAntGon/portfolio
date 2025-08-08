@@ -26,7 +26,7 @@ function Navigation() {
     </ul>
   );
 }
-const Navbar = () => {
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
@@ -70,4 +70,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;
