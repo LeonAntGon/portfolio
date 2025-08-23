@@ -1,0 +1,43 @@
+{
+  "Navbar": {
+    "about": "About",
+    "skills": "Skills",
+    "projects":"Projects"
+  },
+  "Lang":{
+    "currentLang":"English"
+  },
+  "Hero": {
+    "presentation": "I am",
+    "description": "I am a Full Stack developer from Argentina specialized in frontend technologies using React and Next.js, with a growing focus on machine learning and backend development."
+  },
+  "SkillText": {
+    "title": "Technologies I use",
+    "description": "Development with modern technologies",
+    "cursive": "From concepts to code"
+  },
+  "Encryption": {
+    "title1": "Performance",
+    "title2": "Security",
+    "description": "Business-focused technologies"
+  },
+  "Project": {
+    "title": "My proyects",
+    "blogT": "Full Stack Blog",
+    "blog": "Next.js blog using MongoDB and Mongoose with SEO optimization. Features an admin dashboard for managing drafts and published posts, and a public website that dynamically serves published articles.",
+    "periferiT": "AI automation agency website",
+    "periferia": "Next.js and Tailwind website focused on SEO and user-centered UX/UI design for an AI automation agency.",
+    "igroupT": "Real Estate Template",
+    "igroup": "Next.js template using Leaflet to display property locations on an interactive map. Includes property logic, dynamic routes for each listing, a separate contact page and motion animations, all UX-focused.",
+    "inmonuevoT":"Inmonuevo - Real Estate Website",
+    "inmonuevo":"Freelance modernization of an outdated landing page built with React and Next.js, deployed on Vercel to eliminate hosting expenses. Implemented Google Analytics and registered the site in Google Search Console for indexing.",
+    "mojitoT":"Mojito - Cocktail Recipe Website",
+    "mojito":"Cocktail site showcasing brand, history and recipes with GSAP animations and interactive scroll effects for strong visual impact.",
+    "shopifyT":"Shopify Theme",
+    "shopify":"Custom Shopify theme built with HTML, CSS, JavaScript and Liquid (Shopify’s templating language). Includes configurable blocks and sections for the Shopify theme editor."
+  },
+  "Contact": {
+    "title": "Contact",
+    "copy": "2025 All rights reserved"
+  }
+}

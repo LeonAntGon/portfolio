@@ -1,0 +1,44 @@
+{
+  "Navbar": {
+    "about": "Home",
+    "skills": "Habilidades",
+    "projects":"Proyectos"
+  },
+  "Lang":{
+    "currentLang":"Español"
+  },
+  "Hero": {
+    "presentation": "Soy",
+    "description": "Soy un desarrollador Full Stack de Argentina especializado en tecnologías frontend utilizando React y Next.js, con un enfoque entusiasta en machine learning y el desarrollo backend."
+  },
+  "SkillText": {
+    "title": "Mis tecnologías",
+    "description": "Te muestro mi skill-set",
+    "cursive": "Propositos modernos, tecnologías modernas"
+  },
+  "Encryption": {
+    "title1": "Dedicación",
+    "title2": "optimización",
+    "description": "Tecnologías con foco empresarial"
+  },
+  "Project": {
+    "title": "Mis proyectos",
+    "blogT": "Blog Full Stack",
+    "blog": "Blog de Next.js utilizando MongoDB y Mongoose con optimización SEO. Cuenta con un panel de administración para gestionar borradores y publicaciones, y un sitio web público que sirve dinámicamente artículos publicados.",
+    "periferiT": "Sitio web de agencia de automatización de IA",
+    "periferia": "Sitio web de Next.js y Tailwind enfocado en SEO y diseño UX/UI centrado en el usuario para una agencia de automatización de IA.",
+    "igroupT": "Plantilla de sitio web inmobiliario",
+    "igroup": "Plantilla de Next.js que utiliza Leaflet para mostrar las ubicaciones de las propiedades en un mapa interactivo. Incluye lógica de propiedades, rutas dinámicas para cada listado, una página de contacto separada y animaciones de movimiento, todo centrado en la experiencia del usuario.",
+    "inmonuevoT":"Inmonuevo - Sitio web de Bienes Raíces",
+    "inmonuevo":"Modernización freelance de una página de destino obsoleta construida con React y Next.js, desplegada en Vercel para eliminar gastos de alojamiento. Implementación de Google Analytics y registro del sitio en Google Search Console para su indexación.",
+    "mojitoT":"Mojito - Sitio web de recetas de cócteles",
+    "mojito":"Sitio de cócteles que muestra la marca, la historia y las recetas con animaciones GSAP y efectos de desplazamiento interactivos para un fuerte impacto visual.",
+    "shopifyT":"Tema de Shopify",
+    "shopify":"Tema de Shopify personalizado construido con HTML, CSS, JavaScript y Liquid (el lenguaje de plantillas de Shopify). Incluye bloques y secciones configurables para el editor de temas de Shopify."
+  },
+  "Contact": {
+    "title": "Contacto",
+    "copy": " 2025 Derechos reservados"
+  }
+
+}
