@@ -21,11 +21,29 @@
     "title2": "Security",
     "description": "Business-focused technologies"
   },
+  "Certs": {
+    "tfrontend":"Front-end development Specialization",
+    "descriptionfront": "Front-End Development certification focused on building modern, responsive interfaces using HTML, CSS, JavaScript, and React. Gained experience with Bootstrap, Git/GitHub, Jest testing, UX design, and developing production-ready projects to showcase in a professional portfolio.",
+    "tpython":"Programming in Python",
+    "descriptionpython": "Python Programming certification focused on core programming skills, including OOP, data structures, and debugging. Gained hands-on experience with unit testing, TDD, Django, and Python libraries while developing practical projects, preparing for backend development and software testing.",
+    "tdb":"Introduction to Databases for Back-end Development",
+    "descriptiondb": "Certification in Introduction to Databases focused on core concepts, database design, and data management using MySQL and SQL. Hands-on experience with queries, record manipulation, and relational system design, preparing for backend development and database administration.",
+    "tanalis": "Data Analysis with Python",
+    "descriptionanalis": "Data analysis with Pandas and Numpy in Python",
+    "tzapier": "Automation with Zapier",
+    "descriptionzapier": "Complete course on process automation using Zapier",
+    "tsearch":"Google Search Console",
+    "descriptionsearch": "Use of Google Search Console for traffic analysis and website performance.",
+    "tseo":"SEO Technical",
+    "descriptionseo": "Implementation of technical strategies for SEO optimization on websites.",
+    "levelsp": "Specialization",
+    "levelc":"Course"
+  },
   "Project": {
-    "title": "My proyects",
+    "title": "My projects",
     "blogT": "Full Stack Blog",
     "blog": "Next.js blog using MongoDB and Mongoose with SEO optimization. Features an admin dashboard for managing drafts and published posts, and a public website that dynamically serves published articles.",
-    "periferiT": "AI automation agency website",
+    "periferiT": "AI automation agency website template",
     "periferia": "Next.js and Tailwind website focused on SEO and user-centered UX/UI design for an AI automation agency.",
     "igroupT": "Real Estate Template",
     "igroup": "Next.js template using Leaflet to display property locations on an interactive map. Includes property logic, dynamic routes for each listing, a separate contact page and motion animations, all UX-focused.",
@@ -34,7 +52,9 @@
     "mojitoT":"Mojito - Cocktail Recipe Website",
     "mojito":"Cocktail site showcasing brand, history and recipes with GSAP animations and interactive scroll effects for strong visual impact.",
     "shopifyT":"Shopify Theme",
-    "shopify":"Custom Shopify theme built with HTML, CSS, JavaScript and Liquid (Shopify’s templating language). Includes configurable blocks and sections for the Shopify theme editor."
+    "shopify":"Custom Shopify theme built with HTML, CSS, JavaScript and Liquid (Shopify’s templating language). Includes configurable blocks and sections for the Shopify theme editor.",
+    "anyoneT": "Data Analysis with Anyone AI",
+    "anyone": "I transformed datasets from Excel to SQL, extracted insights, and created data visualizations using Python (NumPy, Pandas, Matplotlib) as part of my training in Anyone AI."
   },
   "Contact": {
     "title": "Contact",

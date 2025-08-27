@@ -67,6 +67,14 @@ const Projects = () => {
             githubLink="https://github.com/LeonAntGon/my-first-shopify-theme"
             // driveLink="https://drive.google.com/file/d/archivoID"
           />
+          <ProjectCard
+          image="/certs/sheets.jpeg"
+          title={t('anyoneT')}
+          description={t('anyone')}
+          //githubLink={null} // Si no tenés repo para este proyecto
+          //projectLink={null} // Si no hay demo en línea
+          driveLink="https://drive.google.com/drive/folders/1lS4bQFQbHI1FQ7KdzbbkB-XjljV0bdh0?usp=drive_link"
+        />
 
 
       </div>
