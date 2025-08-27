@@ -22,6 +22,8 @@
     "description": "Business-focused technologies"
   },
   "Certs": {
+    "buble": "Professional Certifications",
+    "Header2": "Certified Knowledge",
     "tfrontend":"Front-end development Specialization",
     "descriptionfront": "Front-End Development certification focused on building modern, responsive interfaces using HTML, CSS, JavaScript, and React. Gained experience with Bootstrap, Git/GitHub, Jest testing, UX design, and developing production-ready projects to showcase in a professional portfolio.",
     "tpython":"Programming in Python",
