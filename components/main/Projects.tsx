@@ -16,12 +16,12 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row md:flex-wrap gap-10 px-10
     [&>div]:max-w-[320px] md:[&>div]:max-w-[320px] md:justify-center">
         <ProjectCard
-            image="/project/blog.png"
+            image="/project/lanorita.png"
             title={t('blogT')}
             description={t('blog')}
-            projectLink="https://blog-frontend-phi-one.vercel.app/"
-            githubLink="https://github.com/LeonAntGon/Full-Stack-Blog"
-            driveLink="https://drive.google.com/file/d/1G0oclBwg66vSvIbVd1cGHPbZCMyk4ZgI/view?usp=sharing"
+            projectLink="https://cabañaslanorita.com"
+            //githubLink=""
+            //driveLink=""
           />
 
           <ProjectCard

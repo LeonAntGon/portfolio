@@ -9,7 +9,7 @@
   },
   "Hero": {
     "presentation": "Soy",
-    "description": "Soy un desarrollador Full Stack de Argentina especializado en tecnologías frontend utilizando React y Next.js, con un enfoque entusiasta en machine learning y el desarrollo backend."
+    "description": "Soy un desarrollador web Full Stack de Argentina especializado en tecnologías frontend utilizando React y Next.js, con un enfoque entusiasta en machine learning y el desarrollo backend."
   },
   "SkillText": {
     "title": "Mis tecnologías",
@@ -43,8 +43,8 @@
   },
   "Project": {
     "title": "Mis proyectos",
-    "blogT": "Blog Full Stack",
-    "blog": "Blog de Next.js utilizando MongoDB y Mongoose con optimización SEO. Cuenta con un panel de administración para gestionar borradores y publicaciones, y un sitio web público que sirve dinámicamente artículos publicados.",
+    "blogT": "Cabañas La Norita",
+    "blog": "Cabañas La Norita es una pagina web para un cliente el cual necesitaba una presencia en línea para su negocio de alquiler de cabañas. La página web está diseñada para ser atractiva y fácil de navegar, con información detallada sobre las cabañas, tarifas, disponibilidad y un formulario de contacto para reservas.",
     "periferiT": "Template de agencia de automatización de IA",
     "periferia": "Sitio web de Next.js y Tailwind enfocado en SEO y diseño UX/UI centrado en el usuario para una agencia de automatización de IA.",
     "igroupT": "Plantilla de sitio web inmobiliario",
