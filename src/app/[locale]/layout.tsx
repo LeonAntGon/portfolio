@@ -13,12 +13,16 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  // 2. Establecemos la base para que las redes sociales sepan dónde buscar la imagen
-  
+
+  metadataBase: new URL(
+    process.env.VERCEL_URL 
+      ? `https://${process.env.VERCEL_URL}` 
+      : "http://localhost:3000"
+  ),
+
   title: "Leonardo's Portfolio",
   description: "This is my portfolio",
 
-  // 3. Configuración Open Graph (Facebook, WhatsApp, LinkedIn)
   openGraph: {
     title: "Leonardo's Portfolio",
     description: "Check out my latest projects and skills.",
@@ -35,7 +39,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 
-  // 4. Configuración Twitter (X)
   twitter: {
     card: "summary_large_image",
     title: "Leonardo's Portfolio",
@@ -51,7 +54,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: any
 }) {
-  const {locale} = await params; // Nota: en Next 15 params es una promesa, esto está bien
+  const {locale} = await params;
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
