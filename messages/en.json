@@ -43,8 +43,8 @@
   },
   "Project": {
     "title": "My projects",
-    "blogT": "Full Stack Blog",
-    "blog": "Next.js blog using MongoDB and Mongoose with SEO optimization. Features an admin dashboard for managing drafts and published posts, and a public website that dynamically serves published articles.",
+    "blogT": "Cabañas La Norita",
+    "blog": "Cabañas La Norita is a website for a client who needed an online presence for their cabin rental business. The website is designed to be attractive and easy to navigate, with detailed information about the cabins, rates, availability, and a contact form for reservations.",
     "periferiT": "AI automation agency website template",
     "periferia": "Next.js and Tailwind website focused on SEO and user-centered UX/UI design for an AI automation agency.",
     "igroupT": "Real Estate Template",

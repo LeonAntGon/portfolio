@@ -10,12 +10,38 @@ import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
 import "./globals.css";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  // 2. Establecemos la base para que las redes sociales sepan dónde buscar la imagen
+  
   title: "Leonardo's Portfolio",
   description: "This is my portfolio",
+
+  // 3. Configuración Open Graph (Facebook, WhatsApp, LinkedIn)
+  openGraph: {
+    title: "Leonardo's Portfolio",
+    description: "Check out my latest projects and skills.",
+    siteName: "Leonardo's Portfolio",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Leonardo's Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  // 4. Configuración Twitter (X)
+  twitter: {
+    card: "summary_large_image",
+    title: "Leonardo's Portfolio",
+    description: "This is my portfolio",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default async function RootLayout({
@@ -25,7 +51,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: any
 }) {
-  const {locale} = await params;
+  const {locale} = await params; // Nota: en Next 15 params es una promesa, esto está bien
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
@@ -36,15 +62,12 @@ export default async function RootLayout({
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <Navbar />
           {children}
           <Analytics/>
           <Footer />
-          </NextIntlClientProvider>
-        
-        
-        
+        </NextIntlClientProvider>
       </body>
     </html>
   );
