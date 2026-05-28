@@ -20,19 +20,19 @@ export const metadata: Metadata = {
       : "http://localhost:3000"
   ),
 
-  title: "Leonardo's Portfolio",
-  description: "This is my portfolio",
+  title: "Leonardo Gonzalez | Web Developer Portfolio",
+  description: "Web development portfolio focused on React, Next.js, WordPress, PHP, and modern SEO-ready websites.",
 
   openGraph: {
-    title: "Leonardo's Portfolio",
-    description: "Check out my latest projects and skills.",
-    siteName: "Leonardo's Portfolio",
+    title: "Leonardo Gonzalez | Web Developer Portfolio",
+    description: "React, Next.js, WordPress, and PHP projects for modern web experiences.",
+    siteName: "Leonardo Web Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Leonardo's Portfolio Preview",
+        alt: "Leonardo web developer portfolio preview",
       },
     ],
     locale: "en_US",
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Leonardo's Portfolio",
-    description: "This is my portfolio",
+    title: "Leonardo Gonzalez | Web Developer Portfolio",
+    description: "Web development portfolio with React, Next.js, WordPress, and PHP.",
     images: ["/og-image.jpg"],
   },
 };

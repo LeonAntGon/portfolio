@@ -9,7 +9,7 @@
   },
   "Hero": {
     "presentation": "Soy",
-    "description": "Soy un desarrollador web Full Stack de Argentina especializado en tecnologías frontend utilizando React y Next.js, con un enfoque entusiasta en machine learning y el desarrollo backend."
+    "description": "Soy un desarrollador web Full Stack de Argentina especializado en React y Next.js, creando sitios y aplicaciones web modernas y de alto rendimiento. También trabajo con WordPress y desarrollo de plugins personalizados con PHP."
   },
   "SkillText": {
     "title": "Mis tecnologías",
@@ -26,14 +26,10 @@
     "Header2": "Certificando mi conocimiento",
     "tfrontend":"Especialización en Desarrollo Front-end",
     "descriptionfront": "Certificación en Front-End Development enfocada en crear interfaces modernas y responsivas con HTML, CSS, JavaScript y React. Incluye experiencia en Bootstrap, Git/GitHub, pruebas con Jest, UX y desarrollo de proyectos listos para producción.",
-    "tpython":"Programación en Python",
-    "descriptionpython": "Certificación en Python Programming enfocada en habilidades fundamentales de programación, incluyendo OOP, estructuras de datos y depuración. Experiencia práctica en unit testing, TDD, Django y bibliotecas de Python, desarrollando proyectos aplicables y preparándose para desarrollo backend y pruebas de software.",
+    "tpython":"Desarrollo Back-end con PHP",
+    "descriptionpython": "Formación práctica en desarrollo back-end enfocada en fundamentos de PHP, programación orientada a objetos, lógica de servidor y flujos reales de desarrollo web para crear funcionalidades personalizadas en WordPress.",
     "tdb":"Introducción a la Bases de datos para desarrollo Back-end",
     "descriptiondb": "Certificación en Introducción a Bases de Datos enfocada en conceptos fundamentales, diseño de bases de datos y manejo de datos con MySQL y SQL. Experiencia práctica en consultas, manipulación de registros y diseño de sistemas relacionales, preparando para desarrollo backend y administración de bases de datos.",
-    "tanalis": "Análisis de Datos con Python",
-    "descriptionanalis": "Análisis de datos con Pandas y Numpy en Python",
-    "tzapier": "Automatización con Zapier",
-    "descriptionzapier": "Curso completo de automatización de procesos utilizando Zapier",
     "tsearch":"Google Search Console",
     "descriptionsearch": "Uso de Google Search Console para análisis de tráfico y rendimiento de sitios web.",
     "tseo":"SEO Técnico",
@@ -45,8 +41,8 @@
     "title": "Mis proyectos",
     "blogT": "Cabañas La Norita",
     "blog": "Cabañas La Norita es una pagina web para un cliente el cual necesitaba una presencia en línea para su negocio de alquiler de cabañas. La página web está diseñada para ser atractiva y fácil de navegar, con información detallada sobre las cabañas, tarifas, disponibilidad y un formulario de contacto para reservas.",
-    "periferiT": "Template de agencia de automatización de IA",
-    "periferia": "Sitio web de Next.js y Tailwind enfocado en SEO y diseño UX/UI centrado en el usuario para una agencia de automatización de IA.",
+    "periferiT": "Template de sitio para agencia digital",
+    "periferia": "Template de sitio web con Next.js y Tailwind enfocado en SEO, performance y diseño UX/UI centrado en el usuario para negocios de servicios digitales.",
     "igroupT": "Plantilla de sitio web inmobiliario",
     "igroup": "Plantilla de Next.js que utiliza Leaflet para mostrar las ubicaciones de las propiedades en un mapa interactivo. Incluye lógica de propiedades, rutas dinámicas para cada listado, una página de contacto separada y animaciones de movimiento, todo centrado en la experiencia del usuario.",
     "inmonuevoT":"Inmonuevo - Sitio web de Bienes Raíces",
@@ -54,9 +50,7 @@
     "mojitoT":"Mojito - Sitio web de recetas de cócteles",
     "mojito":"Sitio de cócteles que muestra la marca, la historia y las recetas con animaciones GSAP y efectos de desplazamiento interactivos para un fuerte impacto visual.",
     "shopifyT":"Tema de Shopify",
-    "shopify":"Tema de Shopify personalizado construido con HTML, CSS, JavaScript y Liquid (el lenguaje de plantillas de Shopify). Incluye bloques y secciones configurables para el editor de temas de Shopify.",
-    "anyoneT":"Análisis de datos con Anyone AI",
-    "anyone":"Transformé datasets en Excel a SQL, extraje insights y creé visualizaciones de datos con Python (NumPy, Pandas, Matplotlib) como parte de mi formación en Anyone AI."
+    "shopify":"Tema de Shopify personalizado construido con HTML, CSS, JavaScript y Liquid (el lenguaje de plantillas de Shopify). Incluye bloques y secciones configurables para el editor de temas de Shopify. También desarrollo y personalizo sitios en WordPress con plugins a medida en PHP."
   },
   "Contact": {
     "title": "Contacto",

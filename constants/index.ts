@@ -94,7 +94,7 @@ export const Skill_data = [
       height: 55,
     },
     {
-      skill_name: "Supabase",
+      skill_name: "JWT",
       Image: "/jwt.png",
       width: 55,
       height: 55,
@@ -112,23 +112,17 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Python",
-      Image: "/python.png",
+      skill_name: "WordPress",
+      Image: "/wordpress.svg",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Pandas",
-      Image: "/pandas.png",
+      skill_name: "PHP",
+      Image: "/php.svg",
       width: 70,
       height: 70,
-    },
-    {
-      skill_name: "Matplotlib",
-      Image: "/matplot.png",
-      width: 70,
-      height: 70,
-    },
+    }
   ];
   
   export const Full_stack = [

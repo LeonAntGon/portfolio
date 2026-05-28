@@ -4,19 +4,13 @@
 import React from 'react';
 import {
   slideInFromLeft,
-  slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
 import { motion } from "framer-motion";
-import zapier from "../../public/certs/zapier.png"
 import frontend from "../../public/certs/front-end-cert.png"
-import python from "../../public/certs/python-meta.png"
-import datasc from "../../public/certs/python-udemy.png"
 import db from "../../public/certs/db-meta.png"
 import search from "../../public/certs/search-console.png"
 import seo from "../../public/certs/seo-tecnico.png"
-import Danalyst from "../../public/certs/DAnalyst.jpg"
-import Sheets from "../../public/certs/sheets.jpeg"
 import {useTranslations} from 'next-intl';
 
 const Certifications = () => {
@@ -35,16 +29,6 @@ const Certifications = () => {
     link: "https://coursera.org/share/2bbc4219dc203a18c04510a5d5a40c68"
   },
   {
-    title: t('tpython'),
-    issuer: 'Meta / Coursera',
-    date: '2024',
-    level: t('levelc'),
-    image: python,
-    description: t('descriptionpython'),
-    skills: ['Python'],
-    link: "https://www.coursera.org/account/accomplishments/certificate/xyz"
-  },
-  {
     title: t('tdb'),
     issuer: 'Meta / Coursera',
     date: '2024',
@@ -53,26 +37,6 @@ const Certifications = () => {
     description: t('descriptiondb'),
     skills: ['MySQL', 'SQL Queries'],
     link: "https://coursera.org/share/7b883eea01369989e9395a27045e81e3"
-  },
-  {
-    title: t('tanalis'),
-    issuer: 'Udemy',
-    date: '2025',
-    level: t('levelc'),
-    image: datasc,
-    description: t('descriptionanalis'),
-    skills: ['Pandas', 'NumPy', 'Excel'],
-    link: "https://drive.google.com/drive/folders/1lS4bQFQbHI1FQ7KdzbbkB-XjljV0bdh0?usp=drive_link"
-  },
-  {
-    title: t('tzapier'),
-    issuer: 'Platzi',
-    date: '2025',
-    level: t('levelc'),
-    image: zapier,
-    description: t('descriptionzapier'),
-    skills: ['Chatbots', 'Webflows', 'APIs'],
-    link: "https://drive.google.com/file/d/1_2OnhpbzZWW1uzUdVt6ENa7JPMsR1IxA/view?usp=drive_link"
   },
   {
     title: t('tsearch'),

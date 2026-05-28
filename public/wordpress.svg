@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="WordPress logo">
+  <circle cx="24" cy="24" r="22" fill="#21759b"/>
+  <circle cx="24" cy="24" r="18" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <path d="M14 18h4l4.2 15.3L26 22.6l3.8 10.7L34 18h4l-7 20h-3.7L24 27.8 20.7 38H17z" fill="#ffffff"/>
+</svg>
