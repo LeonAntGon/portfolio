@@ -50,7 +50,9 @@
     "mojitoT":"Mojito - Cocktail Recipe Website",
     "mojito":"Cocktail site showcasing brand, history and recipes with GSAP animations and interactive scroll effects for strong visual impact.",
     "shopifyT":"Shopify Theme",
-    "shopify":"Custom Shopify theme built with HTML, CSS, JavaScript and Liquid (Shopify’s templating language). Includes configurable blocks and sections for the Shopify theme editor. I also build and customize WordPress sites and plugins using PHP for tailored business needs."
+    "shopify":"Custom Shopify theme built with HTML, CSS, JavaScript and Liquid (Shopify’s templating language). Includes configurable blocks and sections for the Shopify theme editor. I also build and customize WordPress sites and plugins using PHP for tailored business needs.",
+    "zorroT": "La Guarida del Zorro",
+    "zorro": "Premium website for a cabin retreat in San Luis province with two suites. The design conveys refined elegance and a polished, upscale look while staying warm and connected to the natural surroundings, positioning a high-end lodging experience."
   },
   "Contact": {
     "title": "Contact",

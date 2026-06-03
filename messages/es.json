@@ -50,7 +50,9 @@
     "mojitoT":"Mojito - Sitio web de recetas de cócteles",
     "mojito":"Sitio de cócteles que muestra la marca, la historia y las recetas con animaciones GSAP y efectos de desplazamiento interactivos para un fuerte impacto visual.",
     "shopifyT":"Tema de Shopify",
-    "shopify":"Tema de Shopify personalizado construido con HTML, CSS, JavaScript y Liquid (el lenguaje de plantillas de Shopify). Incluye bloques y secciones configurables para el editor de temas de Shopify. También desarrollo y personalizo sitios en WordPress con plugins a medida en PHP."
+    "shopify":"Tema de Shopify personalizado construido con HTML, CSS, JavaScript y Liquid (el lenguaje de plantillas de Shopify). Incluye bloques y secciones configurables para el editor de temas de Shopify. También desarrollo y personalizo sitios en WordPress con plugins a medida en PHP.",
+    "zorroT": "La Guarida del Zorro",
+    "zorro": "Sitio web premium para una cabaña en la provincia de San Luis con dos suites. El diseño transmite elegancia y ostentación cuidada, con una estética pulida que a la vez conecta con la naturaleza del entorno, para posicionar una experiencia de hospedaje de alto nivel."
   },
   "Contact": {
     "title": "Contacto",

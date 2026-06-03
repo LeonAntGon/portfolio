@@ -25,6 +25,12 @@ const Projects = () => {
           />
 
           <ProjectCard
+            image="/project/zorro.png"
+            title={t('zorroT')}
+            description={t('zorro')}
+          />
+
+          <ProjectCard
             image="/project/periferia.png"
             title={t('periferiT')}
             description={t('periferia')}
