@@ -105,7 +105,7 @@ const Certifications = () => {
                 
                 <div className="absolute top-4 right-4 group-hover:bg-gray-200 rounded-xl p-[5px]">
                     <a href={cert.link} target="_blank" rel="noopener noreferrer">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="none" stroke="#00BFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 3h7v7m-1.5-5.5L20 12m-3-7H8a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3v-9"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="none" stroke="#00BFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M22 3h7v7m-1.5-5.5L20 12m-3-7H8a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3v-9"/></svg>
                     </a>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const Certifications = () => {
                 
                 <div className="flex items-center gap-2 mb-3">
                   {/*<Building className="w-4 h-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500" />*/}
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#b49bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M9 8h1m-1 4h1m-1 4h1m4-8h1m-1 4h1m-1 4h1M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#b49bff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 21h18M9 8h1m-1 4h1m-1 4h1m4-8h1m-1 4h1m-1 4h1M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg>
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-medium">{cert.issuer}</span>
                   <span className="text-gray-500">•</span>
                   <span className="text-gray-400 text-sm">{cert.date}</span>

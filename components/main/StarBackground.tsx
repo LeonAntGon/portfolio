@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, Suspense } from "react";
+import React, { useState, useRef, Suspense, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
@@ -38,14 +38,32 @@ const StarBackground = (props: any) => {
   )
 };
 
-const StarsCanvas = () => (
+const StarsCanvas = () => {
+  const [webglSupported, setWebglSupported] = useState(false);
+
+  useEffect(() => {
+    try {
+      const canvas = document.createElement("canvas");
+      const gl =
+        canvas.getContext("webgl") ??
+        canvas.getContext("experimental-webgl");
+      setWebglSupported(!!gl);
+    } catch {
+      setWebglSupported(false);
+    }
+  }, []);
+
+  if (!webglSupported) return null;
+
+  return (
     <div className="w-full h-auto fixed inset-0 z-[10]">
-        <Canvas camera={{position: [0, 0, 1]}}>
+      <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
-            <StarBackground />
+          <StarBackground />
         </Suspense>
-        </Canvas>
+      </Canvas>
     </div>
-)
+  );
+};
 
 export default StarsCanvas;
