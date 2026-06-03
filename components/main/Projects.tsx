@@ -28,6 +28,7 @@ const Projects = () => {
             image="/project/zorro.png"
             title={t('zorroT')}
             description={t('zorro')}
+            projectLink="https://guaridadelzorro.com/"
           />
 
           <ProjectCard
