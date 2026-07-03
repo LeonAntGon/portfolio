@@ -49,7 +49,7 @@ export async function generateMetadata({
       siteName: "Leonardo Web Portfolio",
       images: [
         {
-          url: "/og-image.jpg",
+          url: "/og-image.png",
           width: 1200,
           height: 630,
           alt: content.title,
@@ -62,7 +62,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: content.title,
       description: content.description,
-      images: ["/og-image.jpg"],
+      images: ["/og-image.png"],
     },
   };
 }
