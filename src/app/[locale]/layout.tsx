@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next"
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/src/i18n/routing";
 import StarsCanvas from "@/components/main/StarBackground";
@@ -29,6 +29,10 @@ const metadataByLocale = {
   },
 } as const;
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -38,6 +42,8 @@ export async function generateMetadata({
   const content =
     metadataByLocale[locale as keyof typeof metadataByLocale] ??
     metadataByLocale.en;
+  const ogImageUrl = new URL("/og-image.png", siteUrl).toString();
+  const pageUrl = new URL(`/${locale}`, siteUrl).toString();
 
   return {
     metadataBase: new URL(siteUrl),
@@ -46,13 +52,15 @@ export async function generateMetadata({
     openGraph: {
       title: content.title,
       description: content.description,
+      url: pageUrl,
       siteName: "Leonardo Web Portfolio",
       images: [
         {
-          url: "/og-image.png",
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: content.title,
+          type: "image/png",
         },
       ],
       locale: content.openGraphLocale,
@@ -62,7 +70,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: content.title,
       description: content.description,
-      images: ["/og-image.png"],
+      images: [ogImageUrl],
     },
   };
 }
@@ -78,6 +86,7 @@ export default async function RootLayout({
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
+  setRequestLocale(locale);
   const messages = await getMessages()
   return (
     <html lang={locale}>
