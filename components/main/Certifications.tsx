@@ -29,7 +29,7 @@ const Certifications = () => {
     title: t('tai'),
     issuer: 'DataCamp',
     date: '2025',
-    level: t('levelbasic'),
+    level: '',
     image: aiEngineer,
     description: t('descriptionai'),
     skills: ['AI', 'APIs', 'LLMs', 'Open-source Libraries'],
@@ -146,9 +146,11 @@ const Certifications = () => {
                 <div className="absolute inset-0 bg-black/60 group-hover:bg-black/40 transition-all duration-500" />
                 
                 {/* Level badge */}
-                <div className="absolute top-4 left-4 px-3 py-1 border-[#7042f88b] opacity-[0.9] backdrop-blur-sm rounded-full text-white text-xs font-semibold">
-                  {cert.level}
-                </div>
+                {cert.level && (
+                  <div className="absolute top-4 left-4 px-3 py-1 border-[#7042f88b] opacity-[0.9] backdrop-blur-sm rounded-full text-white text-xs font-semibold">
+                    {cert.level}
+                  </div>
+                )}
                 
                 {cert.link && (
                   <div className="absolute top-4 right-4 group-hover:bg-gray-200 rounded-xl p-[5px]">

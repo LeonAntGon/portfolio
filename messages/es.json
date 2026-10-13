@@ -9,6 +9,7 @@
   },
   "Hero": {
     "presentation": "Soy",
+    "badge": "Desarrollador Full Stack",
     "description": "Soy un desarrollador web Full Stack de Argentina especializado en tecnologías frontend utilizando React y Next.js, con un enfoque entusiasta en machine learning y el desarrollo backend."
   },
   "SkillText": {
@@ -41,8 +42,7 @@
     "tseo":"SEO Técnico",
     "descriptionseo": "Implementación de estrategias técnicas para optimización SEO en sitios web.",
     "levelsp": "Especialización",
-    "levelc":"Curso",
-    "levelbasic":"Nivel Básico"
+    "levelc":"Curso"
   },
   "Project": {
     "title": "Mis proyectos",
