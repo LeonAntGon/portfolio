@@ -17,6 +17,7 @@ import search from "../../public/certs/search-console.png"
 import seo from "../../public/certs/seo-tecnico.png"
 import Danalyst from "../../public/certs/DAnalyst.jpg"
 import Sheets from "../../public/certs/sheets.jpeg"
+import aiEngineer from "../../public/certs/associate-ai-engineer-for-developers.png"
 import {useTranslations} from 'next-intl';
 
 const Certifications = () => {
@@ -25,6 +26,16 @@ const Certifications = () => {
 
   const certificates = [
     {
+    title: t('tai'),
+    issuer: 'DataCamp',
+    date: '2025',
+    level: t('levelbasic'),
+    image: aiEngineer,
+    description: t('descriptionai'),
+    skills: ['AI', 'APIs', 'LLMs', 'Open-source Libraries'],
+    link: "https://www.datacamp.com/completed/statement-of-accomplishment/track/e51c849e97324b46d96602b96f97d4642668edec?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa"
+  },
+  {
     title: t('tfrontend'),
     issuer: 'Meta / Coursera',
     date: '2023',
@@ -139,11 +150,13 @@ const Certifications = () => {
                   {cert.level}
                 </div>
                 
-                <div className="absolute top-4 right-4 group-hover:bg-gray-200 rounded-xl p-[5px]">
+                {cert.link && (
+                  <div className="absolute top-4 right-4 group-hover:bg-gray-200 rounded-xl p-[5px]">
                     <a href={cert.link} target="_blank" rel="noopener noreferrer">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="none" stroke="#00BFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 3h7v7m-1.5-5.5L20 12m-3-7H8a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3v-9"/></svg>
                     </a>
-                </div>
+                  </div>
+                )}
               </div>
               
               <div className="p-6">

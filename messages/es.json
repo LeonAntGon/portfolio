@@ -24,6 +24,8 @@
   "Certs": {
     "buble": "Certificaciones profesionales",
     "Header2": "Certificando mi conocimiento",
+    "tai":"Associate AI Engineer for Developers",
+    "descriptionai": "Aprendé a integrar IA en aplicaciones de software mediante APIs y librerías de código abierto. Comenzá hoy tu camino para convertirte en AI Engineer.",
     "tfrontend":"Especialización en Desarrollo Front-end",
     "descriptionfront": "Certificación en Front-End Development enfocada en crear interfaces modernas y responsivas con HTML, CSS, JavaScript y React. Incluye experiencia en Bootstrap, Git/GitHub, pruebas con Jest, UX y desarrollo de proyectos listos para producción.",
     "tpython":"Programación en Python",
@@ -39,7 +41,8 @@
     "tseo":"SEO Técnico",
     "descriptionseo": "Implementación de estrategias técnicas para optimización SEO en sitios web.",
     "levelsp": "Especialización",
-    "levelc":"Curso"
+    "levelc":"Curso",
+    "levelbasic":"Nivel Básico"
   },
   "Project": {
     "title": "Mis proyectos",
