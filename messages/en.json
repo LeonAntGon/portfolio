@@ -65,7 +65,7 @@
     },
     "items": {
       "aiIntegrations": "AI Integrations",
-      "gcloudOcr": "Google Cloud OCR",
+      "gcloudOcr": "Google Cloud Console",
       "metaApis": "Meta / Social APIs",
       "ecommerce": "Tiendanube & Shopify"
     },

@@ -78,7 +78,7 @@ export const skillCategories: SkillCategory[] = [
         color: "#FFFFFF",
       },
       {
-        name: "Google Cloud OCR",
+        name: "Google Cloud Console",
         nameKey: "gcloudOcr",
         icon: SiGooglecloud,
         color: "#4285F4",
