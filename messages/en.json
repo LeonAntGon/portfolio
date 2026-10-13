@@ -45,18 +45,37 @@
     "title": "My projects",
     "blogT": "Cabañas La Norita",
     "blog": "Cabañas La Norita is a website for a client who needed an online presence for their cabin rental business. The website is designed to be attractive and easy to navigate, with detailed information about the cabins, rates, availability, and a contact form for reservations.",
-    "periferiT": "AI automation agency website template",
-    "periferia": "Next.js and Tailwind website focused on SEO and user-centered UX/UI design for an AI automation agency.",
-    "igroupT": "Real Estate Template",
-    "igroup": "Next.js template using Leaflet to display property locations on an interactive map. Includes property logic, dynamic routes for each listing, a separate contact page and motion animations, all UX-focused.",
     "inmonuevoT":"Inmonuevo - Real Estate Website",
     "inmonuevo":"Freelance modernization of an outdated landing page built with React and Next.js, deployed on Vercel to eliminate hosting expenses. Implemented Google Analytics and registered the site in Google Search Console for indexing.",
-    "mojitoT":"Mojito - Cocktail Recipe Website",
-    "mojito":"Cocktail site showcasing brand, history and recipes with GSAP animations and interactive scroll effects for strong visual impact.",
-    "shopifyT":"Shopify Theme",
-    "shopify":"Custom Shopify theme built with HTML, CSS, JavaScript and Liquid (Shopify’s templating language). Includes configurable blocks and sections for the Shopify theme editor.",
-    "anyoneT": "Data Analysis with Anyone AI",
-    "anyone": "I transformed datasets from Excel to SQL, extracted insights, and created data visualizations using Python (NumPy, Pandas, Matplotlib) as part of my training in Anyone AI."
+    "lenceriaT":"Lencería Yas",
+    "lenceria":"Website for a lingerie store with carefully crafted UX/UI design. Includes an admin panel to manage the site content (images, categories and reviews), with authentication powered by Clerk.",
+    "ulpianoT":"Ulpiano AI - Intelligent Platform for Litigation in Tucumán",
+    "ulpiano":"Software designed to optimize litigation in the province of Tucumán using a RAG architecture. It allows users to upload images and documents to the system's memory to analyze them in context. When processing the evidence, the assistant generates answers and strategies strictly grounded in jurisprudence, national and provincial laws, and the Criminal Procedure Code.",
+    "zenttT":"Zentt - Booking Platform for Short-Term Rentals",
+    "zentt":"Software designed to digitalize vacation rental management. It gives every host their own website to receive direct bookings, reducing dependence on and commissions from intermediaries. It also automatically links with Airbnb, syncing availability calendars in real time and centralizing all administration in a single dashboard."
+  },
+  "Skills": {
+    "categories": {
+      "frontend": "Frontend & Mobile",
+      "backend": "Backend & Data",
+      "ai": "AI & Integrations",
+      "tools": "Tools & E-commerce"
+    },
+    "items": {
+      "aiIntegrations": "AI Integrations",
+      "gcloudOcr": "Google Cloud OCR",
+      "metaApis": "Meta / Social APIs",
+      "ecommerce": "Tiendanube & Shopify"
+    },
+    "notes": {
+      "reactNative": "Focused on mobile app development",
+      "postgresql": "pgvector / vector databases",
+      "ai": "LLM, RAG and automation integrations",
+      "gcloud": "Data extraction and image analysis",
+      "mercadopago": "Checkout and payment gateways",
+      "meta": "Instagram analytics and automation",
+      "ecommerce": "E-commerce"
+    }
   },
   "Contact": {
     "title": "Contact",

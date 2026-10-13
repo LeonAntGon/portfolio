@@ -45,18 +45,37 @@
     "title": "Mis proyectos",
     "blogT": "Cabañas La Norita",
     "blog": "Cabañas La Norita es una pagina web para un cliente el cual necesitaba una presencia en línea para su negocio de alquiler de cabañas. La página web está diseñada para ser atractiva y fácil de navegar, con información detallada sobre las cabañas, tarifas, disponibilidad y un formulario de contacto para reservas.",
-    "periferiT": "Template de agencia de automatización de IA",
-    "periferia": "Sitio web de Next.js y Tailwind enfocado en SEO y diseño UX/UI centrado en el usuario para una agencia de automatización de IA.",
-    "igroupT": "Plantilla de sitio web inmobiliario",
-    "igroup": "Plantilla de Next.js que utiliza Leaflet para mostrar las ubicaciones de las propiedades en un mapa interactivo. Incluye lógica de propiedades, rutas dinámicas para cada listado, una página de contacto separada y animaciones de movimiento, todo centrado en la experiencia del usuario.",
     "inmonuevoT":"Inmonuevo - Sitio web de Bienes Raíces",
     "inmonuevo":"Modernización freelance de una página de destino obsoleta construida con React y Next.js, desplegada en Vercel para eliminar gastos de alojamiento. Implementación de Google Analytics y registro del sitio en Google Search Console para su indexación.",
-    "mojitoT":"Mojito - Sitio web de recetas de cócteles",
-    "mojito":"Sitio de cócteles que muestra la marca, la historia y las recetas con animaciones GSAP y efectos de desplazamiento interactivos para un fuerte impacto visual.",
-    "shopifyT":"Tema de Shopify",
-    "shopify":"Tema de Shopify personalizado construido con HTML, CSS, JavaScript y Liquid (el lenguaje de plantillas de Shopify). Incluye bloques y secciones configurables para el editor de temas de Shopify.",
-    "anyoneT":"Análisis de datos con Anyone AI",
-    "anyone":"Transformé datasets en Excel a SQL, extraje insights y creé visualizaciones de datos con Python (NumPy, Pandas, Matplotlib) como parte de mi formación en Anyone AI."
+    "lenceriaT":"Lencería Yas",
+    "lenceria":"Página web para una tienda de lencería con UX/UI cuidada a nivel de diseño. Incluye un panel de administración para gestionar el contenido del sitio (imágenes, categorías y reseñas), con autenticación mediante Clerk.",
+    "ulpianoT":"Ulpiano AI - Plataforma Inteligente para Litigios en Tucumán",
+    "ulpiano":"Software diseñado para optimizar el litigio en la provincia de Tucumán utilizando arquitectura RAG. Permite subir imágenes y documentos a la memoria del sistema para analizarlos en contexto. Al procesar la evidencia, el asistente genera respuestas y estrategias fundamentadas estrictamente en jurisprudencia, leyes nacionales y provinciales, y el Código Procesal Penal.",
+    "zenttT":"Zentt - Plataforma de Reservas para Alquileres Temporarios",
+    "zentt":"Software diseñado para digitalizar la gestión de alquileres vacacionales. Proporciona a cada anfitrión una página web propia para recibir reservas directas, reduciendo la dependencia y comisiones de intermediarios. Además, se vincula automáticamente con Airbnb, sincronizando los calendarios de disponibilidad en tiempo real y centralizando toda la administración en un único panel."
+  },
+  "Skills": {
+    "categories": {
+      "frontend": "Frontend & Móvil",
+      "backend": "Backend & Datos",
+      "ai": "IA & Integraciones",
+      "tools": "Herramientas & E-commerce"
+    },
+    "items": {
+      "aiIntegrations": "Integraciones de IA",
+      "gcloudOcr": "Google Cloud OCR",
+      "metaApis": "APIs de Meta / Redes",
+      "ecommerce": "Tiendanube & Shopify"
+    },
+    "notes": {
+      "reactNative": "Enfocado en creación de apps móviles",
+      "postgresql": "pgvector / bases de datos vectoriales",
+      "ai": "Integraciones con LLMs, RAG y automatización",
+      "gcloud": "Extracción de datos y análisis de imágenes",
+      "mercadopago": "Checkout y pasarelas de pago",
+      "meta": "Analíticas y automatizaciones de Instagram",
+      "ecommerce": "E-commerce"
+    }
   },
   "Contact": {
     "title": "Contacto",

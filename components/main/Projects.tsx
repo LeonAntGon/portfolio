@@ -25,24 +25,6 @@ const Projects = () => {
           />
 
           <ProjectCard
-            image="/project/periferia.png"
-            title={t('periferiT')}
-            description={t('periferia')}
-            projectLink="https://periferia-digital-leonardos-projects-d36d8da3.vercel.app/"
-            githubLink="https://github.com/LeonAntGon/PERIFERIA-DIGITAL"
-            // driveLink="https://drive.google.com/file/d/archivoID"
-          />
-
-          <ProjectCard
-            image="/project/igroup.png"
-            title={t('igroupT')}
-            description={t('igroup')}
-            projectLink="https://i-group.vercel.app/"
-            githubLink="https://github.com/LeonAntGon/i-group"
-            // driveLink="https://drive.google.com/file/d/archivoID"
-          />
-
-          <ProjectCard
             image="/project/inmonuevo.png"
             title={t('inmonuevoT')}
             description={t('inmonuevo')}
@@ -52,29 +34,31 @@ const Projects = () => {
           />
 
           <ProjectCard
-            image="/project/mojito.png"
-            title={t('mojitoT')}
-            description={t('mojito')}
-            projectLink="https://mojito-ebon-five.vercel.app/"
-            githubLink="https://github.com/LeonAntGon/mojito"
+            image="/project/lenceriayas.png"
+            title={t('lenceriaT')}
+            description={t('lenceria')}
+            projectLink="https://lenceriayas.shop"
+            // githubLink="https://github.com/LeonAntGon/lenceria-yas"
             // driveLink="https://drive.google.com/file/d/archivoID"
           />
+
           <ProjectCard
-            image="/project/shopify.png"
-            title={t('shopifyT')}
-            description={t('shopify')}
-            //projectLink="https://mojito-ebon-five.vercel.app/"
-            githubLink="https://github.com/LeonAntGon/my-first-shopify-theme"
+            image="/project/ulpiano.png"
+            title={t('ulpianoT')}
+            description={t('ulpiano')}
+            projectLink="https://ulpiano.net"
+            // githubLink="https://github.com/LeonAntGon/ulpiano"
             // driveLink="https://drive.google.com/file/d/archivoID"
           />
+
           <ProjectCard
-          image="/certs/sheets.jpeg"
-          title={t('anyoneT')}
-          description={t('anyone')}
-          //githubLink={null} // Si no tenés repo para este proyecto
-          //projectLink={null} // Si no hay demo en línea
-          driveLink="https://drive.google.com/drive/folders/1lS4bQFQbHI1FQ7KdzbbkB-XjljV0bdh0?usp=drive_link"
-        />
+            image="/project/zentt.png"
+            title={t('zenttT')}
+            description={t('zentt')}
+            projectLink="https://zentt.agency"
+            // githubLink="https://github.com/LeonAntGon/zentt"
+            // driveLink="https://drive.google.com/file/d/archivoID"
+          />
 
 
       </div>
