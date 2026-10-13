@@ -45,6 +45,8 @@
     "title": "My projects",
     "blogT": "Cabañas La Norita",
     "blog": "Cabañas La Norita is a website for a client who needed an online presence for their cabin rental business. The website is designed to be attractive and easy to navigate, with detailed information about the cabins, rates, availability, and a contact form for reservations.",
+    "zorroT":"La Guarida del Zorro - Cabins & Suites",
+    "zorro":"Website for a cabins and suites complex in Merlo, San Luis. It showcases 2 cabin-style lodgings and 2 suites with their capacity and details, the available amenities (pool, Wi-Fi, air conditioning, barbecues, full kitchen and parking), a gallery of images and videos of the experience and the location, along with contact and booking sections.",
     "inmonuevoT":"Inmonuevo - Real Estate Website",
     "inmonuevo":"Freelance modernization of an outdated landing page built with React and Next.js, deployed on Vercel to eliminate hosting expenses. Implemented Google Analytics and registered the site in Google Search Console for indexing.",
     "lenceriaT":"Lencería Yas",
@@ -68,12 +70,7 @@
       "ecommerce": "Tiendanube & Shopify"
     },
     "notes": {
-      "reactNative": "Focused on mobile app development",
       "postgresql": "pgvector / vector databases",
-      "ai": "LLM, RAG and automation integrations",
-      "gcloud": "Data extraction and image analysis",
-      "mercadopago": "Checkout and payment gateways",
-      "meta": "Instagram analytics and automation",
       "ecommerce": "E-commerce"
     }
   },

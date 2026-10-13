@@ -25,6 +25,15 @@ const Projects = () => {
           />
 
           <ProjectCard
+            image="/project/guarida-del-zorro.png"
+            title={t('zorroT')}
+            description={t('zorro')}
+            projectLink="https://guaridadelzorro.com"
+            // githubLink="https://github.com/LeonAntGon/guarida-del-zorro"
+            // driveLink="https://drive.google.com/file/d/archivoID"
+          />
+
+          <ProjectCard
             image="/project/inmonuevo.png"
             title={t('inmonuevoT')}
             description={t('inmonuevo')}

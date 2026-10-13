@@ -45,6 +45,8 @@
     "title": "Mis proyectos",
     "blogT": "Cabañas La Norita",
     "blog": "Cabañas La Norita es una pagina web para un cliente el cual necesitaba una presencia en línea para su negocio de alquiler de cabañas. La página web está diseñada para ser atractiva y fácil de navegar, con información detallada sobre las cabañas, tarifas, disponibilidad y un formulario de contacto para reservas.",
+    "zorroT":"La Guarida del Zorro - Cabañas & Suites",
+    "zorro":"Sitio web para un complejo de cabañas y suites en Merlo, San Luis. Presenta 2 cabañas y 2 suites con capacidad y detalles, los servicios disponibles (pileta, WiFi, aire acondicionado, parrillas, cocina completa y estacionamiento), una galería de imágenes y videos de la experiencia y la ubicación, con secciones de contacto y reservas.",
     "inmonuevoT":"Inmonuevo - Sitio web de Bienes Raíces",
     "inmonuevo":"Modernización freelance de una página de destino obsoleta construida con React y Next.js, desplegada en Vercel para eliminar gastos de alojamiento. Implementación de Google Analytics y registro del sitio en Google Search Console para su indexación.",
     "lenceriaT":"Lencería Yas",
@@ -68,12 +70,7 @@
       "ecommerce": "Tiendanube & Shopify"
     },
     "notes": {
-      "reactNative": "Enfocado en creación de apps móviles",
       "postgresql": "pgvector / bases de datos vectoriales",
-      "ai": "Integraciones con LLMs, RAG y automatización",
-      "gcloud": "Extracción de datos y análisis de imágenes",
-      "mercadopago": "Checkout y pasarelas de pago",
-      "meta": "Analíticas y automatizaciones de Instagram",
       "ecommerce": "E-commerce"
     }
   },
