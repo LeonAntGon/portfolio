@@ -15,7 +15,7 @@ const Footer = () => {
                     <p className="font-bold text-[16px]">{t('title')}</p>
 
                     <a
-                        href="https://www.linkedin.com/in/leonardo-gonzalez-379040261/"
+                        href="https://www.linkedin.com/in/leogonzalez-dev/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center flex-row my-[15px] cursor-pointer z-200 "
